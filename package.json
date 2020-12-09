@@ -1,0 +1,13 @@
+{
+  "name": "yarn-workspace-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/yangyang121/yarn-workspace-demo.git",
+  "author": "yangyang121 <844171995@qq.com>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*",
+    "project"
+  ]
+}

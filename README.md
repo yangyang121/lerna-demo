@@ -1,2 +1,2 @@
-# lerna-demo
-学习 lerna
+# yarn-demo
+使用 Yarn Workspace 对项目进行结构调整
