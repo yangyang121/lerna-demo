@@ -1,5 +1,16 @@
-function add(a = 1, b = 2) {
-  return a * 2 + b * 3
+import React, { useState } from "react"
+
+function Counter() {
+  const [count, setCount] = useState(0)
+  return (
+    <div>
+      <p>{count}</p>
+      <button style={{ marginRight: 15 }} onClick={() => setCount(count + 1)}>
+        +
+      </button>
+      <button onClick={() => setCount(count - 1)}>-</button>
+    </div>
+  )
 }
 
-export default add
+export default Counter

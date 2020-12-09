@@ -1,8 +1,12 @@
-import add from "workspace-a"
+import Counter from "workspace-a"
 import "./App.css"
 
 function App() {
-  return <div className="App">{add(3, 4)}</div>
+  return (
+    <div className="App">
+      <Counter />
+    </div>
+  )
 }
 
 export default App
